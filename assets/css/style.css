@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+  overflow: hidden;
+  /* padding-right: 8%;
+  padding-left: 8%; */
+  padding: 0 8%;
+}
+
+.navbar-list {
+  background-color: white;
+  padding: 16px 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbar-item {
+  list-style: none;
+  margin-right: 32px;
+}
+
+.navbar-item a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-item a:hover {
+  color: lightsalmon;
+}
+
+.navbar-item:first-child {
+  margin-right: auto;
+}
+
+.navbar-item:last-child {
+  margin-right: 0;
+}
+
+.button-signup {
+  background-color: salmon;
+  padding: 8px 16px;
+  outline: none;
+  border: none;
+  color: white;
+  border-radius: 16px;
+}
+
+.button-signup:hover {
+  background-color: red;
+}
+
+/* Banner Section */
+.banner-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 64px 0;
+}
+
+.col-1 {
+  width: 35%;
+  display: block;
+}
+
+.col-2 {
+  width: 65%;
+}
+/* Tagline */
+.tagline {
+  margin-top: 12px;
+}
+.tagline h1 {
+  font-size: 40px;
+}
+
+.tagline h2 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.contact-button {
+  color: white;
+  text-decoration: none;
+  background-color: salmon;
+  padding: 10px 16px;
+  outline: none;
+  border-radius: 20px;
+  font-size: 16px;
+}
+.contact-button:hover {
+  background-color: red;
+}
+/* DIV Kanan */
+.banner-img {
+  border-image: 10 round;
+  width: 100%;
+}
+
+/* Slogan */
+.slogan {
+  text-align: center;
+  width: 70%;
+  align-items: center;
+  margin: auto;
+  font-style: italic;
+}
+
+/* Services */
+.services-title {
+  text-align: center;
+  margin-top: 64px;
+  margin-bottom: 32px;
+}
+
+.description {
+  text-align: center;
+  margin-top: 32px;
+  padding-bottom: 16px;
+}
+
+.services-item {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 32px;
+  margin-bottom: 64px;
+}
+
+.services-card {
+  height: 300px;
+  width: 300px;
+  background-color: #f0f0f0;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px;
+}
+
+.card-logo {
+  width: 72px;
+  padding: 16px 0;
+}
+
+.card-title {
+  text-align: center;
+  padding: 8px 0;
+}
+
+.card-description {
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 32px;
+}
+
+.card-button {
+  background-color: salmon;
+  padding: 12px 24px;
+  outline: none;
+  border: none;
+  color: white;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+.card-button:hover {
+  background-color: red;
+}
+
+footer {
+  background-color: lightblue;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.row-1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 4%;
+}
+
+/* Cta */
+.cta {
+  text-align: center;
+  margin-bottom: 64px;
+}
+.cta h2 {
+  font-size: 40px;
+}
+
+.btn-cta {
+  background-color: black;
+  color: white;
+  padding: 16px 32px;
+  margin: 16px 0;
+  border-radius: 32px;
+  border: none;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.btn-cta:hover {
+  background-color: salmon;
+  border: none;
+}
+/* Footer */
+.address-footer > * {
+  padding: 8px 0;
+}
+
+.list-footer {
+  padding: 8px 0;
+}
+.list-footer a:hover {
+  color: salmon;
+  font-weight: bold;
+}
+
+.row-2 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 18px 0;
+}
